@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+#user-form {
+  max-width: 400px; /* Lebar maksimum kontainer form */
+  margin: 0 auto; /* Tengahkan form horizontal di dalam parent */
+  padding: 20px; /* Padding untuk menjaga jarak dari tepi form ke kontennya */
+  background-color: #f4f4f4; /* Warna latar belakang form */
+  border: 1px solid #ccc; /* Garis tepi form */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Lebar div */
+  height: 200px; /* Tinggi div */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0; /* Warna latar belakang div */
+  border: 1px solid #ccc; /* Garis tepi div */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  margin: 0; /* Hapus margin bawaan dari form */
+}
+
+label {
+  display: block; /* Setiap label menjadi blok, sehingga tampilan vertikal */
+  margin-bottom: 5px; /* Jarak antara label dan input */
+}
+
+input[type="text"], select {
+  width: 80%; /* Input dan select mengisi lebar kontainer */
+  padding: 10px; /* Padding dalam input/select */
+  margin-bottom: 20px; /* Jarak antara input/select */
+  border: 1px solid #ccc; /* Garis tepi input/select */
+  border-radius: 3px; /* Sudut bulat pada input/select */
+}
+
+button {
+  background-color: #007bff; /* Warna latar belakang tombol Kirim */
+  color: #fff; /* Warna teks tombol */
+  border: none; /* Hapus border tombol */
+  padding: 10px 20px; /* Padding tombol */
+  cursor: pointer; /* Pointer mouse menjadi tangan saat mengarahkan ke tombol */
+  transition: background-color 0.3s ease; /* Efek transisi pada hover */
+}
+
+button:hover {
+  background-color: #0056b3; /* Warna latar belakang tombol saat dihover */
+}
